@@ -1,16 +1,41 @@
-# winsport
+# 🛒 WinSport - Razorpay Payment Integration
 
-A new Flutter project.
+This Flutter project demonstrates **UPI app link-based payments** using **Razorpay**. The app allows users to initiate payments directly via the Razorpay interface and handles success/failure callbacks seamlessly.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- ✅ Razorpay payment via App Link
+- 🔐 Secure UPI redirection
+- 📲 Mobile-optimized experience
+- 📷 Screenshot documentation
+- 🧾 Transaction success and error handling
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📸 Screenshots
+
+| Home Screen | Razorpay Payment Page | Payment Success |
+|-------------|------------------------|------------------|
+| ![Home](assets/screenshots/login.jpg) | ![dashboard](assets/screenshots/dashboardd.jpg) | ![product](assets/screenshots/product-detail.jpg) || ![cart](assets/screenshots/cart.jpg) | ![payment](assets/screenshots/payment.jpg)
+
+---
+
+## 💳 How Payments Work
+
+1. User taps **"Pay with Razorpay"**
+2. App opens Razorpay UPI app or fallback browser-based payment
+3. On success/failure, user is redirected back
+4. Result is shown in-app
+
+---
+
+## 🧩 Dependencies
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  razorpay_flutter: ^1.3.5
+  url_launcher: ^6.1.10
