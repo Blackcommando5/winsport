@@ -6,28 +6,32 @@ This Flutter project demonstrates **UPI app link-based payments** using **Razorp
 
 ## 🚀 Features
 
-- ✅ Razorpay payment via App Link
-- 🔐 Secure UPI redirection
-- 📲 Mobile-optimized experience
-- 📷 Screenshot documentation
-- 🧾 Transaction success and error handling
+- ✅ Razorpay payment via App Link  
+- 🔐 Secure UPI redirection  
+- 📲 Mobile-optimized experience  
+- 📷 Screenshot documentation  
+- 🧾 Transaction success and error handling  
 
 ---
 
 ## 📸 Screenshots
 
-| Home Screen | Razorpay Payment Page | Payment Success |
-|-------------|------------------------|------------------|
-| ![Home](assets/screenshots/login.jpg) | ![dashboard](assets/screenshots/dashboardd.jpg) | ![product](assets/screenshots/product-detail.jpg) || ![cart](assets/screenshots/cart.jpg) | ![payment](assets/screenshots/payment.jpg)
+| Login Screen | Dashboard | Product Detail |
+|--------------|-----------|----------------|
+| ![Login](assets/screenshots/login.jpg) | ![Dashboard](assets/screenshots/dashboardd.jpg) | ![Product](assets/screenshots/product-detail.jpg) |
+
+| Cart Screen | Payment |
+|-------------|---------|
+| ![Cart](assets/screenshots/cart.jpg) | ![Payment](assets/screenshots/payment.jpg) |
 
 ---
 
 ## 💳 How Payments Work
 
-1. User taps **"Pay with Razorpay"**
-2. App opens Razorpay UPI app or fallback browser-based payment
-3. On success/failure, user is redirected back
-4. Result is shown in-app
+1. User taps **"Pay with Razorpay"**  
+2. App opens the Razorpay UPI app or fallback browser-based payment  
+3. On success/failure, the user is redirected back  
+4. The result is shown in-app  
 
 ---
 
