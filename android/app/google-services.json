@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "874999161282",
+    "project_id": "winsport-c734e",
+    "storage_bucket": "winsport-c734e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874999161282:android:03f6af72fa7e2b7142f65b",
+        "android_client_info": {
+          "package_name": "com.example.winsport"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCH613eeL3JYK696paZE3N19msHz8CNr68"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
